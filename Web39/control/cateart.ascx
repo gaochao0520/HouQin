@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" %>
 <div class="Sbox">
-    <div class="topic">新闻动态&nbsp;&nbsp;&nbsp;News</div>
+    <div class="topic">新闻中心&nbsp;&nbsp;&nbsp;News</div>
     <div class="blank">
         <ul>
             <% var t_ncate = LibCache.get_fenleis("a");

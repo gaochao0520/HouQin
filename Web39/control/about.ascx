@@ -3,11 +3,9 @@
     <div class="topic">部门介绍&nbsp;About</div>
     <div class="blank">
         <ul>
-            <li><a href='/page/company.aspx'>部门领导</a></li>
+            <li><a href='/page/leader.aspx'>部门领导</a></li>
             <li><a href='/page/zuzhi.aspx'>组织机构</a></li>
-            <li><a href='/page/wenhua.aspx'>企业文化</a></li>
-            <li><a href='/page/huanjing.aspx'>公司环境</a></li>
-            <li><a href='/page/yewu.aspx'>公司业务</a></li>
+            <li><a href='/page/introduce.aspx'>工作职能</a></li>
         </ul>
     </div>
 </div>

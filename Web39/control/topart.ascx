@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" %>
 <div class="Sbox">
-    <div class="topic">最新资讯&nbsp;&nbsp;&nbsp;New</div>
+    <div class="topic">最新动态&nbsp;&nbsp;&nbsp;New</div>
     <div class="list">
         <dl>
             <% var prolist = PB.get_article(5, "types='a'", "id desc");

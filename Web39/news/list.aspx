@@ -47,6 +47,8 @@
                 <!--left end-->
                 <!--right start-->
                 <div class="right">
+
+
                     <div class="Position"><span>你的位置：<a href="/">首页</a>> <a href='/news/list.aspx'>新闻动态</a></span></div>
                     <div class="HeightTab clearfix"></div>
                     <!--main start-->

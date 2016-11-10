@@ -6,6 +6,7 @@
 <%@ Register Src="/control/contact.ascx" TagPrefix="uc1" TagName="contact" %>
 <%@ Register Src="/control/ad.ascx" TagPrefix="uc1" TagName="ad" %>
 <%@ Register Src="/control/about.ascx" TagPrefix="uc1" TagName="about" %>
+<%@ Register Src="/control/service.ascx" TagPrefix="uc1" TagName="service" %>
 <%@ Register Src="/control/topart.ascx" TagPrefix="uc1" TagName="topart" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -40,7 +41,7 @@
                 <!--left start-->
                 <div class="left">
                     <uc1:about runat="server" ID="about" />
-                    <uc1:topart runat="server" ID="topart" />
+                    <uc1:service runat="server" ID="service" />
                     <uc1:contact runat="server" ID="contact" />
                 </div>
                 <!--left end-->

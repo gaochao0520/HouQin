@@ -6,6 +6,9 @@
 <%@ Register Src="~/control/about.ascx" TagPrefix="uc1" TagName="about" %>
 <%@ Register Src="~/control/ad.ascx" TagPrefix="uc1" TagName="ad" %>
 
+<%@ Register Src="~/control/fengguang.ascx" TagPrefix="uc1" TagName="fengguang" %>
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -36,12 +39,12 @@
             <div class="inner">
                 <!--left start-->
                 <div class="left">
-                    <uc1:about runat="server" ID="about" />
+                    <uc1:fengguang runat="server" ID="fengguang" />
                 </div>
                 <!--left end-->
                 <!--right start-->
                 <div class="right">
-                    <div class="Position"><span>你的位置：<a href="/">首页</a>> <a href='/anli/list.aspx'>成功案例</a></span></div>
+                    <div class="Position"><span>你的位置：<a href="/">首页</a>> <a href='/anli/list.aspx'>校园风光</a></span></div>
                     <div class="HeightTab clearfix"></div>
                     <!--main start-->
                     <div class="main">

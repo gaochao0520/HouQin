@@ -533,8 +533,6 @@
     <Content Include="admin\zidian\list.aspx" />
     <Content Include="anli\info.aspx" />
     <Content Include="anli\list.aspx" />
-    <Content Include="App_Data\数据表.sql" />
-    <Content Include="App_Data\默认数据39.sql" />
     <Content Include="config.xml" />
     <Content Include="control\about.ascx" />
     <Content Include="control\ad.ascx" />
@@ -542,8 +540,10 @@
     <Content Include="control\cateart.ascx" />
     <Content Include="control\catechanpin.ascx" />
     <Content Include="control\contact.ascx" />
+    <Content Include="control\fengguang.ascx" />
     <Content Include="control\left.ascx" />
     <Content Include="control\nav.ascx" />
+    <Content Include="control\service.ascx" />
     <Content Include="control\top.ascx" />
     <Content Include="control\topart.ascx" />
     <Content Include="control\topchanpin.ascx" />
@@ -737,6 +737,8 @@
     <Content Include="product\info.aspx" />
     <Content Include="product\list.aspx" />
     <Content Include="p\info.aspx" />
+    <Content Include="service\info.aspx" />
+    <Content Include="service\list.aspx" />
     <Content Include="upload\2013-08-11\09b2f4c0-920b-414a-b9a5-a55a9dc94f90.jpg" />
     <Content Include="upload\2013-08-11\17707b6a-973c-4026-a8bd-5ce844cc0fb8.jpg" />
     <Content Include="upload\2013-08-11\21d46a73-034b-4f1c-83e4-faa543bfb02e.jpg" />
@@ -991,6 +993,20 @@
     <Compile Include="admin\zidian\list.aspx.designer.cs">
       <DependentUpon>list.aspx</DependentUpon>
     </Compile>
+    <Compile Include="control\fengguang.ascx.cs">
+      <DependentUpon>fengguang.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="control\fengguang.ascx.designer.cs">
+      <DependentUpon>fengguang.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="control\service.ascx.cs">
+      <DependentUpon>service.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="control\service.ascx.designer.cs">
+      <DependentUpon>service.ascx</DependentUpon>
+    </Compile>
     <Compile Include="images\code.aspx.cs">
       <DependentUpon>code.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -999,6 +1015,20 @@
       <DependentUpon>code.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="service\info.aspx.cs">
+      <DependentUpon>info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="service\info.aspx.designer.cs">
+      <DependentUpon>info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="service\list.aspx.cs">
+      <DependentUpon>list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="service\list.aspx.designer.cs">
+      <DependentUpon>list.aspx</DependentUpon>
+    </Compile>
     <Compile Include="_Code\Admin\AdminBase.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -1039,6 +1069,9 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="_Code\UI\ProductList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Code\UI\ServiceInfo.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="_Code\UI\UIBase.cs">

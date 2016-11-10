@@ -38,7 +38,7 @@
                                 </li>
                                 <li><a href='article/list.aspx?types=a' target='main'>文章列表</a></li>
                                 <li><a href='zidian/fenlei.aspx?types=a' target='main'>文章分类管理</a></li>
-                                <li>
+                               <%-- <li>
                                     <div class='items'>
                                         <div class='fllct'><a href='chanpin/info.aspx?types=c' target='main'>发布产品</a></div>
 
@@ -49,7 +49,7 @@
                                     </div>
                                 </li>
                                 <li><a href='chanpin/list.aspx?types=c' target='main'>产品列表</a></li>
-                                <li><a href='zidian/fenlei.aspx?types=c' target='main'>产品分类管理</a></li>
+                                <li><a href='zidian/fenlei.aspx?types=c' target='main'>产品分类管理</a></li>--%>
                                 <li><a href='danye/info.aspx' target='main'>新增单页</a></li>
                                 <li><a href='danye/list.aspx' target='main'>单页管理</a></li>
                                 <li><a href='zidian/list.aspx?types=danye' target='main'>单页分类管理</a></li>

@@ -12,7 +12,7 @@
 </div>
 <!--footer end -->
 
-<script src="/js/lrkf/js/lrkf.js"></script>
+<%--<script src="/js/lrkf/js/lrkf.js"></script>
 <link href="/js/lrkf/skin/lrkf_blue1.css" rel="stylesheet" />
 <script type="text/javascript">
     $(function () {
@@ -28,4 +28,4 @@
             ]
         });
     });
-</script>
+</script>--%>

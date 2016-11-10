@@ -3,6 +3,7 @@
 <%@ Import Namespace="System.Linq" %>
 <%@ Register Src="/control/nav.ascx" TagPrefix="uc1" TagName="nav" %>
 <%@ Register Src="/control/top.ascx" TagPrefix="uc1" TagName="top" %>
+<%@ Register Src="/control/bot.ascx" TagPrefix="uc1" TagName="bot" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -209,6 +210,7 @@
         </div>
         <!--body end-->
        
+        <uc1:bot runat="server" ID="bot" />
     </div>
     </form>
 </body>
