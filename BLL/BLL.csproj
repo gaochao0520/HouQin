@@ -49,6 +49,7 @@
     <Compile Include="C\TcDanye.cs" />
     <Compile Include="C\TcFenlei.cs" />
     <Compile Include="C\TcHuandeng.cs" />
+    <Compile Include="C\TcImage.cs" />
     <Compile Include="C\TcLinks.cs" />
     <Compile Include="C\TcLiuyan.cs" />
     <Compile Include="C\TcQuxian.cs" />

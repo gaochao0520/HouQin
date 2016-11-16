@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Tc.UI.ArtInfo" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Tc.UI.Image" %>
 
 <%@ Register Src="~/control/bot.ascx" TagPrefix="uc1" TagName="bot" %>
 <%@ Register Src="~/control/nav.ascx" TagPrefix="uc1" TagName="nav" %>
@@ -14,7 +14,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=7">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title><%=art.Title %>-<%=PB.Get("webname") %></title>
+    <title><%=img.Title %>-<%=PB.Get("webname") %></title>
     <link href="<%=Lib.theme %>images/inner.css" rel="stylesheet" type="text/css" />
     <link href="<%=Lib.theme %>images/common.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="<%=Lib.theme %>js/jquery.min.js"></script>
@@ -51,14 +51,14 @@
                         <!--content start-->
                         <div class="content">
                             <div class="title">
-                                <h3><%=art.Title %></h3>
+                                <h3><%=img.Title %></h3>
                             </div>
-                            <div class="infos"><%=art.Addtime.GetDateTime().ToString("yyyy-MM-dd") %></div>
+                            <div class="infos"><%=img.Addtime.GetDateTime().ToString("yyyy-MM-dd") %></div>
                             <div class="maincontent clearfix">
                                 <center>
-                                    <img src="<%=LibFile.get_img(art.Tupian.GetString(),"356","262") %>" /></center>
+                                    <img src="<%=LibFile.get_img(img.Tupian.GetString(),"356","262") %>" /></center>
                                 <div class="IntroTitle">详细说明</div>
-                                <%=art.Content %>
+                                <%=img.Content %>
                             </div>
                         </div>
                         <!--content end-->

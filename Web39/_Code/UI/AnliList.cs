@@ -48,7 +48,7 @@ namespace Tc.UI
             int start = (currentPage - 1) * aspnetpage.PageSize + 1;
 
             var sumcount = 0;
-            dt = BLL.BLLP.Instance.Get_Page_List("TcArticle", "id desc", start, aspnetpage.PageSize, where, out sumcount);
+            dt = BLL.BLLP.Instance.Get_Page_List("TcImage", "id desc", start, aspnetpage.PageSize, out sumcount);
             aspnetpage.RecordCount = sumcount;
         }
     }

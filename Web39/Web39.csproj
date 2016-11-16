@@ -71,6 +71,8 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin\fengguang\info.aspx" />
+    <Content Include="admin\fengguang\list.aspx" />
     <Content Include="admin\liuyan\list.aspx" />
     <Content Include="admin\ad\info.aspx" />
     <Content Include="admin\ad\list.aspx" />
@@ -880,6 +882,20 @@
     <Compile Include="admin\danye\list.aspx.designer.cs">
       <DependentUpon>list.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin\fengguang\info.aspx.cs">
+      <DependentUpon>info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\fengguang\info.aspx.designer.cs">
+      <DependentUpon>info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\fengguang\list.aspx.cs">
+      <DependentUpon>list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\fengguang\list.aspx.designer.cs">
+      <DependentUpon>list.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin\guanli\pwd.aspx.cs">
       <DependentUpon>pwd.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1054,6 +1070,9 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="_Code\UI\Danye.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Code\UI\Image.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="_Code\UI\Index.cs">

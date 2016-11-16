@@ -50,5 +50,25 @@ namespace Tc.DAL
             sumcount = ds.Tables[1].Rows[0][0].GetString().GetInt();
             return ds.Tables[0];
         }
+
+
+        public DataTable Get_Page_List(string tablename, string orderby, int startrecordindex, int pagesize, out int sumcount)
+        {
+            StringBuilder sb = new StringBuilder();
+            var sql = "select row_number() over ( order by " + orderby + " ) as rowid ,* from " + tablename;
+            sb.Append("with temp as( ");
+            sb.Append(sql);
+            sb.Append(" )");
+            sb.Append(" select * from temp where rowid between ");
+            sb.Append(startrecordindex);
+            sb.Append(" and ");
+            sb.Append(startrecordindex + pagesize - 1);
+            sb.Append(" ;select count(id) from (");
+            sb.Append(sql);
+            sb.Append(") t ");
+            DataSet ds = DbHelperSQL.Query(sb.ToString());
+            sumcount = ds.Tables[1].Rows[0][0].GetString().GetInt();
+            return ds.Tables[0];
+        }
     }
 }

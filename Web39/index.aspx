@@ -111,9 +111,9 @@
                 <!--right2 start-->
                 <div class="right2">
                     <div class="topic">
-                        <div class="TopicTitle"><a href='/pange/contact.aspx'>服务指南</a></div>
+                        <div class="TopicTitle"><a href='/page/bus.aspx'>服务中心</a></div>
                         <div class="TopicMore">
-                            <a href='/pange/contact.aspx'>
+                            <a href='/page/bus.aspx'>
                                 <img src="images/more.png"></a>
                         </div>
                     </div>

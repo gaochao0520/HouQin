@@ -22,5 +22,12 @@ namespace Tc.BLL
             Tc.DAL.DALP dal = new DAL.DALP();
             return dal.Get_Page_List(tablename, orderby, startrecordindex, pagesize, where, out sumcount);
         }
+
+
+        public DataTable Get_Page_List(string tablename, string orderby, int startrecordindex, int pagesize, out int sumcount)
+        {
+            Tc.DAL.DALP dal = new DAL.DALP();
+            return dal.Get_Page_List(tablename, orderby, startrecordindex, pagesize, out sumcount);
+        }
     }
 }
