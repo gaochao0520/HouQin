@@ -2,10 +2,12 @@
 
 <div class="HeightTab clearfix"></div>
 <!--footer start-->
-<div id="footer">
-    <div class="inner">
-        <div class='BottomNav'><a href="/">网站首页</a> | <a href="/page/company.aspx">关于我们</a> | <a href="/page/job.aspx">人才招聘</a>| <a href="/liuyan.aspx">在线留言</a></div>
-        <div class='HeightTab'></div>
+<div id="footer" style=" background-color:#3092b9;">
+    <div class="inner" >
+        <div class='BottomNav'><a href='/index.aspx'>网站首页</a> | <a href="/page/introduce.aspx">关于我们</a> </div>
+        <%--<div class='BottomNav'><a href='/index.aspx'>网站首页</a> | <a href="/page/introduce.aspx">关于我们</a> | <a href="/page/job.aspx">人才招聘</a>| <a href="/liuyan.aspx">在线留言</a></div>--%>
+
+        <div class='HeightTab' ></div>
         <p>公司地址：<%=PB.Get("dizhi") %> 联系电话：<%=PB.Get("dianhua") %> 电子邮件：<%=PB.Get("email") %></p>
         <p>Copyright 2013  <%=PB.Get("webname") %> 版权所有 All rights reserved</p>
     </div>

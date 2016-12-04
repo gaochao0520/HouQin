@@ -79,8 +79,10 @@
             <!--right end-->
         </div>
         <!--inner end-->
+
+        <!--body end-->
+        <uc1:bot runat="server" ID="bot" />
+
     </div>
-    <!--body end-->
-    <uc1:bot runat="server" ID="bot" />
 </body>
 </html>
