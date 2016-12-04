@@ -118,18 +118,20 @@
                         </div>
                     </div>
                     <div class='img'>
-                        <a href='/contact' target='_blank'>
-                            <img src='/images/join.jpg' width='233' height='100' alt='联系方式'></a>
+                        <a href='/page/bus.aspx' target='_blank'>
+                            <img src='/images/join.jpg' width='233' height='100' alt='服务中心'></a>
                     </div>
                     <div class="txt ColorLink">
-                        <p>地址：<%=PB.Get("dizhi") %></p>
+                       <%-- <p>地址：<%=PB.Get("dizhi") %></p>
                         <p>电话：<%=PB.Get("dianhua") %></p>
                         <p>传真：<%=PB.Get("chuanzhen") %></p>
                         <p>邮件：<%=PB.Get("email") %></p>
-                        <p>网站：<a href='<%=PB.Get("web") %>' target='_blank'><%=PB.Get("web") %></a> </p>
+                        <p>网站：<a href='<%=PB.Get("web") %>' target='_blank'><%=PB.Get("web") %></a> </p>--%>
                         <p align='center'>
-                            <a href="http://wpa.qq.com/msgrd?v=3&uin=<%=PB.Get("qq1") %>&site=qq&menu=yes" target="_blank">
-                                <img src="<%=Lib.theme %>images/qqimg/webqq.gif" alt='在线QQ交谈' /></a> &nbsp;&nbsp;<a href="http://wpa.qq.com/msgrd?v=3&uin=<%=PB.Get("qq2") %>&site=qq&menu=yes" target="_blank"><img src="<%=Lib.theme %>images/qqimg/webqq.gif" alt='在线QQ交谈' /></a>
+                           <%-- <p> <a href="http://wpa.qq.com/msgrd?v=3&uin=<%=PB.Get("qq1") %>&site=qq&menu=yes" target="_blank"><img src="<%=Lib.theme %>images/qqimg/webqq.gif" alt='在线QQ交谈' /></a> &nbsp;&nbsp;</p>
+                             <p><a href="http://wpa.qq.com/msgrd?v=3&uin=<%=PB.Get("qq2") %>&site=qq&menu=yes" target="_blank"><img src="<%=Lib.theme %>images/qqimg/webqq.gif" alt='在线QQ交谈' /></a>&nbsp;&nbsp;</p>--%>
+                             <p> <a href="/page/bus.aspx" target="_blank"><img src="<%=Lib.theme %>images/qqimg/webqq.gif" alt='公交查询' /></a> &nbsp;&nbsp;</p>
+                             <p><a href="/page/repair.aspx" target="_blank"><img src="<%=Lib.theme %>images/qqimg/webqq.gif" alt='保修服务' /></a>&nbsp;&nbsp;</p>
                         </p>
                     </div>
 
@@ -157,8 +159,8 @@
                     <div id="Solutionsdemo">
                         <div id="Solutionsindemo">
                             <div id="Solutionsdemo1">
-                                <% var anli = PB.get_article(10, "types='al'", "id desc");
-                                   foreach (var item in anli)
+                                <% var tupian = PB.get_images(10, "Fenleiid='0'", "id desc");
+                                   foreach (var item in tupian)
                                    {%>
                                 <a href='/anli/info.aspx?id=<%=item.ID %>' target='_blank' title='<%=item.Title %>'>
                                     <img src='<%=LibFile.get_img(item.Tupian,"156","116") %>' width='166' height='124' alt='<%=item.Title %>' /></a>

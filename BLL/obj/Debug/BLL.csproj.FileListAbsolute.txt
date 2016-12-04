@@ -42,3 +42,14 @@ M:\Project\HouQin\BLL\bin\Debug\DotNet.xml
 M:\Project\HouQin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 M:\Project\HouQin\BLL\obj\Debug\Tc.BLL.dll
 M:\Project\HouQin\BLL\obj\Debug\Tc.BLL.pdb
+G:\Projects\HouQin\BLL\bin\Debug\Tc.BLL.dll
+G:\Projects\HouQin\BLL\bin\Debug\Tc.BLL.pdb
+G:\Projects\HouQin\BLL\bin\Debug\Model.dll
+G:\Projects\HouQin\BLL\bin\Debug\Tc.DAL.dll
+G:\Projects\HouQin\BLL\bin\Debug\DotNet.dll
+G:\Projects\HouQin\BLL\bin\Debug\Tc.DAL.pdb
+G:\Projects\HouQin\BLL\bin\Debug\Model.pdb
+G:\Projects\HouQin\BLL\bin\Debug\DotNet.xml
+G:\Projects\HouQin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+G:\Projects\HouQin\BLL\obj\Debug\Tc.BLL.dll
+G:\Projects\HouQin\BLL\obj\Debug\Tc.BLL.pdb

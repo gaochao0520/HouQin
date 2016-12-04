@@ -213,5 +213,15 @@ namespace Tc
         }
 
         #endregion 获取字典
+
+        #region  获取图片
+        public static List<Tc.Model.TcImage> get_images(int top,string where,string order)
+        {
+            var bll = BLL.TcImage.Instance;
+            return bll.DataTableToList(bll.GetList(top, where, order).Tables[0]);
+        }
+
+
+        #endregion
     }
 }

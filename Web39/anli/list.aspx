@@ -14,7 +14,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=7">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>成功案例-<%=PB.Get("webname") %></title>
+    <title>校园风光-<%=PB.Get("webname") %></title>
     <link href="<%=Lib.theme %>images/inner.css" rel="stylesheet" type="text/css" />
     <link href="<%=Lib.theme %>images/common.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="<%=Lib.theme %>js/jquery.min.js"></script>

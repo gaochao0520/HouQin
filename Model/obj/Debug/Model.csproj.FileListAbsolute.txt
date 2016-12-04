@@ -15,3 +15,8 @@ M:\Project\HouQin\Model\bin\Debug\Model.pdb
 M:\Project\HouQin\Model\obj\Debug\Model.dll
 M:\Project\HouQin\Model\obj\Debug\Model.pdb
 M:\Project\HouQin\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+G:\Projects\HouQin\Model\bin\Debug\Model.dll
+G:\Projects\HouQin\Model\bin\Debug\Model.pdb
+G:\Projects\HouQin\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+G:\Projects\HouQin\Model\obj\Debug\Model.dll
+G:\Projects\HouQin\Model\obj\Debug\Model.pdb

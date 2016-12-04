@@ -31,3 +31,11 @@ M:\Project\HouQin\DALSql\bin\Debug\Model.pdb
 M:\Project\HouQin\DALSql\obj\Debug\DALSql.csprojResolveAssemblyReference.cache
 M:\Project\HouQin\DALSql\obj\Debug\Tc.DAL.dll
 M:\Project\HouQin\DALSql\obj\Debug\Tc.DAL.pdb
+G:\Projects\HouQin\DALSql\bin\Debug\Tc.DAL.dll
+G:\Projects\HouQin\DALSql\bin\Debug\Tc.DAL.pdb
+G:\Projects\HouQin\DALSql\bin\Debug\DotNet.dll
+G:\Projects\HouQin\DALSql\bin\Debug\Model.dll
+G:\Projects\HouQin\DALSql\bin\Debug\Model.pdb
+G:\Projects\HouQin\DALSql\obj\Debug\DALSql.csprojResolveAssemblyReference.cache
+G:\Projects\HouQin\DALSql\obj\Debug\Tc.DAL.dll
+G:\Projects\HouQin\DALSql\obj\Debug\Tc.DAL.pdb

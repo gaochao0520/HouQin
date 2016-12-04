@@ -80,6 +80,12 @@ namespace Tc.BLL
             return dal.GetList(strWhere);
         }
 
+
+        public DataSet GetList(int Top,string strWhere, string filedOrder)
+        {
+            return dal.GetList(Top, strWhere, filedOrder);
+        }
+
         /// <summary>
         /// 获得数据列表
         /// </summary>
