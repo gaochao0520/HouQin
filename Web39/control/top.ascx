@@ -9,7 +9,7 @@
     <div class="TopLogo">
         <div class="logo">
             <a href="/">
-                <img src="<%=Lib.theme %>images/logo.png"></a>
+               <%-- <img src="<%=Lib.theme %>images/logo.png">--%></a>
         </div>
         <div class="tel">
             <%--<p class="telW">24小时客服热线</p>

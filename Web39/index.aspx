@@ -119,7 +119,7 @@
                     </div>
                     <div class='img'>
                         <a href='/page/bus.aspx' target='_blank'>
-                            <img src='/images/join.jpg' width='233' height='100' alt='服务中心'></a>
+                            <img src='/images/button/join.png' width='233' height='100' alt='服务中心'></a>
                     </div>
                     <div class="txt ColorLink">
                        <%-- <p>地址：<%=PB.Get("dizhi") %></p>
@@ -130,8 +130,10 @@
                         <p align='center'>
                            <%-- <p> <a href="http://wpa.qq.com/msgrd?v=3&uin=<%=PB.Get("qq1") %>&site=qq&menu=yes" target="_blank"><img src="<%=Lib.theme %>images/qqimg/webqq.gif" alt='在线QQ交谈' /></a> &nbsp;&nbsp;</p>
                              <p><a href="http://wpa.qq.com/msgrd?v=3&uin=<%=PB.Get("qq2") %>&site=qq&menu=yes" target="_blank"><img src="<%=Lib.theme %>images/qqimg/webqq.gif" alt='在线QQ交谈' /></a>&nbsp;&nbsp;</p>--%>
-                             <p> <a href="/page/bus.aspx" target="_blank"><img src="<%=Lib.theme %>images/qqimg/webqq.gif" alt='公交查询' /></a> &nbsp;&nbsp;</p>
-                             <p><a href="/page/repair.aspx" target="_blank"><img src="<%=Lib.theme %>images/qqimg/webqq.gif" alt='保修服务' /></a>&nbsp;&nbsp;</p>
+                             <p> <a href="/page/bus.aspx" target="_blank"><img src="images/button/b1.png" alt='公交查询' /></a> &nbsp;&nbsp;</p>
+                             <p><a href="/page/repair.aspx" target="_blank"><img src="images/button/b2.png" alt='保修服务' /></a>&nbsp;&nbsp;</p>
+                             <p> <a href="/page/bus.aspx" target="_blank"><img src="images/button/b3.png" alt='办公时间' /></a> &nbsp;&nbsp;</p>
+                             <p><a href="/page/repair.aspx" target="_blank"><img src="images/button/b4.png" alt='校园地图' /></a>&nbsp;&nbsp;</p>
                         </p>
                     </div>
 

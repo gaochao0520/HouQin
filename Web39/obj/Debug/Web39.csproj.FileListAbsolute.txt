@@ -48,3 +48,15 @@ G:\Projects\HouQin\Web39\bin\Tc.DAL.pdb
 G:\Projects\HouQin\Web39\obj\Debug\Web39.csprojResolveAssemblyReference.cache
 G:\Projects\HouQin\Web39\obj\Debug\Tc.Web.dll
 G:\Projects\HouQin\Web39\obj\Debug\Tc.Web.pdb
+E:\最新\网站\HouQin\Web39\bin\Tc.Web.dll.config
+E:\最新\网站\HouQin\Web39\bin\Tc.Web.dll
+E:\最新\网站\HouQin\Web39\bin\Tc.Web.pdb
+E:\最新\网站\HouQin\Web39\bin\Model.dll
+E:\最新\网站\HouQin\Web39\bin\Tc.BLL.dll
+E:\最新\网站\HouQin\Web39\bin\Tc.DAL.dll
+E:\最新\网站\HouQin\Web39\bin\Tc.BLL.pdb
+E:\最新\网站\HouQin\Web39\bin\Model.pdb
+E:\最新\网站\HouQin\Web39\bin\Tc.DAL.pdb
+E:\最新\网站\HouQin\Web39\obj\Debug\Web39.csprojResolveAssemblyReference.cache
+E:\最新\网站\HouQin\Web39\obj\Debug\Tc.Web.dll
+E:\最新\网站\HouQin\Web39\obj\Debug\Tc.Web.pdb

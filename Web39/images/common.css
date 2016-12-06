@@ -119,7 +119,7 @@ input, textarea {
             width: 100%;
             height: 150px;
             font-size: 12px;
-            border-top: 3px solid #3092b9;
+           // border-top: 3px solid #3092b9;
         }
 
             #wrapper #head .top .TopInfo {

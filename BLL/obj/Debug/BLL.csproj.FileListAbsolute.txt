@@ -53,3 +53,14 @@ G:\Projects\HouQin\BLL\bin\Debug\DotNet.xml
 G:\Projects\HouQin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 G:\Projects\HouQin\BLL\obj\Debug\Tc.BLL.dll
 G:\Projects\HouQin\BLL\obj\Debug\Tc.BLL.pdb
+E:\最新\网站\HouQin\BLL\bin\Debug\Tc.BLL.dll
+E:\最新\网站\HouQin\BLL\bin\Debug\Tc.BLL.pdb
+E:\最新\网站\HouQin\BLL\bin\Debug\Model.dll
+E:\最新\网站\HouQin\BLL\bin\Debug\Tc.DAL.dll
+E:\最新\网站\HouQin\BLL\bin\Debug\DotNet.dll
+E:\最新\网站\HouQin\BLL\bin\Debug\Tc.DAL.pdb
+E:\最新\网站\HouQin\BLL\bin\Debug\Model.pdb
+E:\最新\网站\HouQin\BLL\bin\Debug\DotNet.xml
+E:\最新\网站\HouQin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\最新\网站\HouQin\BLL\obj\Debug\Tc.BLL.dll
+E:\最新\网站\HouQin\BLL\obj\Debug\Tc.BLL.pdb
