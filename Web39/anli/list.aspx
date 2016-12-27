@@ -44,7 +44,7 @@
                 <!--left end-->
                 <!--right start-->
                 <div class="right">
-                    <div class="Position"><span>你的位置：<a href="/">首页</a>> <a href='/anli/list.aspx'>校园风光</a></span></div>
+                    <div class="Position"><span>你的位置：<a href="../index.aspx">首页</a>> <a href='/anli/list.aspx'>校园风光</a></span></div>
                     <div class="HeightTab clearfix"></div>
                     <!--main start-->
                     <div class="main">

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-/**
-* Copyright (c) 2013-2020 Tuichu.net. All rights reserved.
+/** 
+* Copyright (c) 2013-2020 All rights reserved.
 *┌──────────────────────────────────┐
-*│  作者QQ:599906561  email: 599906561@qq.com
-*│  QQ群： 2068911
-*│　版权所有：推出网版权所有 http://www.tuichu.net　
+*│  作者QQ:632029078  email: 632029078@qq.com
+*│  QQ群： 467635695
+*│　版权所有：GC网版权所有
 *└──────────────────────────────────┘
 */
 

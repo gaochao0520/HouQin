@@ -46,7 +46,7 @@
                 <!--left end-->
                 <!--right start-->
                 <div class="right">
-                    <div class="Position"><span>你的位置：<a href="/">首页</a>> 在线留言</span></div>
+                    <div class="Position"><span>你的位置：<a href="../index.aspx">首页</a>> 在线留言</span></div>
                     <div class="HeightTab clearfix"></div>
                     <!--main start-->
                     <div class="main">

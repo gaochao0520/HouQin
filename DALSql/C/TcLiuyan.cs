@@ -1,10 +1,10 @@
 ﻿using Maticsoft.DBUtility;
 
 /**
-* Copyright (c) 2013-2020 Tuichu.net. All rights reserved.
+* Copyright (c) 2016-2020 All rights reserved.
 *┌──────────────────────────────────┐
-*│  作者QQ:5-9-9-9-0-6-5-6-1  email: 599906561@qq.com
-*│　版权所有：推出网版权所有 http://tuichu.net
+*│  作者QQ:632029078  email: 632029078@qq.com
+*│　版权所有：GC网版权所有
 *└──────────────────────────────────┘
 */
 

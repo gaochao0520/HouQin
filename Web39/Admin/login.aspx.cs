@@ -16,7 +16,7 @@ namespace Tc.Web.Admin
             {
 #if DEBUG
                 txt_name.Text = "admin";
-                txt_pwd.Text = "tuichu";
+                txt_pwd.Text = "GCFramework";
                 Button1_Click(sender, e);
 #endif
             }

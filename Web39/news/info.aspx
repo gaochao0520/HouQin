@@ -48,7 +48,7 @@
                 <!--left end-->
                 <!--right start-->
                 <div class="right">
-                    <div class="Position"><span>你的位置：<a href="/">首页</a>> <a href='/news/list.aspx'>新闻中心</a></span></div>
+                    <div class="Position"><span>你的位置：<a href="../index.aspx">首页</a>> <a href='/news/list.aspx'>新闻中心</a></span></div>
                     <div class="HeightTab clearfix"></div>
                     <!--main start-->
                     <div class="main">
@@ -73,9 +73,11 @@
             <!--right end-->
         </div>
         <!--inner end-->
-    </div>
+    
     <!--body end-->s
 
     <uc1:bot runat="server" ID="bot" />
+
+    </div>
 </body>
 </html>

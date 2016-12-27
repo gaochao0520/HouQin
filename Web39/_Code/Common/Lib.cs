@@ -7,7 +7,7 @@ namespace Tc
 {
     public class Lib
     {
-        public const string SysTitle = "推出网企业建站系统- Powered by Tuichu.net";
+        public const string SysTitle = "GC网企业建站系统- Powered by GC";
 
         private static string _theme = "";
 
